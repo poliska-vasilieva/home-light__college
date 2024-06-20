@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <title>home light</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="menu">
+                <a href="index.html"><img src="./img/home light.svg" alt="logo" class="logo__img"></a>
+                <nav>
+                    <ul class="ul__header">
+                        <li><a href="catalog__1.html">Каталог</a></li>
+                        <li><a href="lk.html">Личный кабинет</a></li>
+                        <li><a href="avt_reg.html">Вход</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main__avt__reg">
+        <section>
+            <div class="container">
+                <div class="card__tab">
+
+                    <div class="tab">
+                        <input checked id="tab-reg" name="tab-btn" type="radio" value="">
+                        <label for="tab-reg">Регистрация</label>
+                        <input id="tab-avt" name="tab-btn" type="radio" value="">
+                        <label for="tab-avt">Авторизация</label>
+                        <div class="tab-content" id="content-reg">
+                            <form action="#" method="post">
+                                <div class="descr">Введите данные</div>
+                                <input type="text" placeholder="ФИО" class="reg_input" required></input>
+                                <input type="email" placeholder="Email" class="reg_input" required></input>
+                                <input type="password" placeholder="Пароль" minlength="8" class="reg_input"
+                                    required></input>
+                                <input type="password" placeholder="Повтор пароля" minlength="8" class="reg_input"
+                                    required></input>
+                                <button type="submit" class="btn btn__tab">Отправить</button>
+                        </div>
+                        <div class="tab-content" id="content-avt">
+                            <div class="descr">Введите данные</div>
+                            <input type="email" placeholder="Email" class="reg_input" required></input>
+                            <input type="password" placeholder="Пароль" minlength="8" class="reg_input"
+                                required></input>
+                            <button type="submit" class="btn btn__tab">Войти</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="menu">
+                <a href="index.html"><img src="./img/home light.svg" alt="logo" class="logo__img"></a>
+
+                <div class="icons">
+                    <div class="icon">
+                        <img src="./img/telegram_logo.svg" alt="telegram_logo" class="sc__img">
+                    </div>
+
+                    <div class="icon">
+                        <img src="./img/youtube.svg" alt="youtube_logo" class="sc__img">
+                    </div>
+
+                    <div class="icon">
+                        <img src="./img/dzen.svg" alt="dzen_logo" class="sc__img">
+                    </div>
+                </div>
+
+                <nav class="nav__footer">
+                    <ul class="ul__footer">
+                        <li><a href="rules.html">Политика
+                            обработки персональных данных</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

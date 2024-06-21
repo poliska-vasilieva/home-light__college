@@ -20,7 +20,7 @@ body {
 }
 
 .main__avt__reg {
-    height: 520px;
+    height: 620px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -297,6 +297,7 @@ footer {
 .ob {
     font-size: 18px;
     color: #FA9A2D;
+    margin: 10px 0;
 }
 
 button {
@@ -443,7 +444,7 @@ span {
     margin: 10px 0 0 20px;
 }
 
-.contacts, .profile {
+.contacts {
     display: flex;
 }
 
@@ -464,7 +465,6 @@ tr {
 
 .info {
     max-width: 450px;
-    height: 100%;
     border: solid 2px #FA9A2D;
     border-radius: 30px;
     padding: 40px;
@@ -503,6 +503,7 @@ tr {
 
 .href__lk {
     font-size: 35px;
+    text-align: center;
 }
 
 .buttons {
@@ -516,7 +517,7 @@ tr {
 .profile {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
@@ -559,7 +560,6 @@ tr {
     }
 
     .profile {
-        flex-direction: column;
         gap: 50px;
     }
 
@@ -609,6 +609,10 @@ tr {
     .subtitle__rules, .descr__rules {
         font-size: 18px;
     }
+
+    .card__tab {
+        width: 350px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -657,7 +661,7 @@ tr {
     }
 
     .card {
-        max-width: 230px;
+        max-width: 300px;
     }
 
     .card__img {
@@ -692,6 +696,16 @@ tr {
         align-items: center;
         flex-direction: row;
     }
+
+    .profile {
+        flex-direction: column;
+    }
+
+    .info {
+        margin: 30px;
+    }
+
+    
 }
 
 
@@ -763,6 +777,14 @@ tr {
     .card__text {
         font-size: 17px;
     }
+
+    .card__img {
+        max-width: 160px;
+    }
+
+    .card__tab {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -789,6 +811,5 @@ tr {
 
     li {
         margin: 0px 10px;
-    }
-    
+    }    
 }
